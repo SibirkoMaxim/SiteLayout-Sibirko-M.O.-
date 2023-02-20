@@ -81,7 +81,6 @@ header {
     text-decoration: none;
 }
 
-
 /*  */
 /* Popup */
 /*  */
@@ -190,6 +189,26 @@ main{
 
 .em-orange {
     color: #CF5510;
+}
+
+/* Students */
+
+.students {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.student {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.student-name {
+    display: block;
+    text-align: center;
 }
 
 
