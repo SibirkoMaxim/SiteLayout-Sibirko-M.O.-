@@ -158,7 +158,7 @@ main{
     flex-grow: 1;
 }
 
-.main-h1 {
+main h1 {
     display: block;
     flex-wrap: flex;
     font-family: 'Roboto';
@@ -179,7 +179,7 @@ main{
     font-size: 25px;
 }
 
-.main-p {
+main p {
     /* width: 634px; */
     font-family: 'Roboto';
     font-style: normal;
@@ -189,6 +189,13 @@ main{
 
 .em-orange {
     color: #CF5510;
+}
+
+.main-p-large {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
 }
 
 /* Students */
@@ -209,6 +216,31 @@ main{
 .student-name {
     display: block;
     text-align: center;
+}
+
+.students-main-h1::after {
+    content: "👧👦";
+}
+
+/* AboutCourse */
+.aboutcourse-main-h1::after {
+ content: "📱";
+}
+/* Contacts */
+
+.contacts-main-h1::after{
+    content: "🗺️";
+}
+
+.image-map {
+    max-width: 1268px;
+    width: 100%;
+    height: auto;
+}
+
+.main-p-phone {
+    margin-top: 24px;
+    text-decoration: underline;
 }
 
 
