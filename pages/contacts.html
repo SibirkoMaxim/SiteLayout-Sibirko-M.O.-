@@ -20,10 +20,24 @@
             <li><a class="menu-link active-link" href="./contacts.html">Контакты</a></li>
         </ul>
         <a class="login-button">Войти</a>
+        <div class="login-popup">
+            <img class="cross-button" src="../images/cross.svg" alt="Закрыть" width="40px" height="40px">
+            <h2 class="login-title">Войти на сайт</h2>
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required>
+                <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+        <script src="../js/script.js"></script>
     </header>
     <main>
         <h1 class="contacts-main-h1">Как нас найти</h1>
-        <img class="image-map" src="../images/google-map.png">
+        <!-- <img class="image-map" src="../images/google-map.png"> -->
+        <div class="iframe">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab47cba4f8e6e803588d30c6ebe37c04faa49d45935722502814971cbfd67eba8&amp;source=constructor" 
+            width="1268" height="370" frameborder="0"></iframe>
+        </div>
         <p class="main-p-large">Наши контакты</p>
         <p class="main-p">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
         <p class="main-p-phone">Тел: +7 (812) 555-55-55</p>
@@ -33,3 +47,8 @@
     </footer>
 </body>
 </html>
+
+<!-- <div class="iframe">
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab47cba4f8e6e803588d30c6ebe37c04faa49d45935722502814971cbfd67eba8&amp;source=constructor" 
+    width="1268" height="370" frameborder="0"></iframe>
+</div> -->

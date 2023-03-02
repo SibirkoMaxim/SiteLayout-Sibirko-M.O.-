@@ -146,6 +146,15 @@ header {
     display: inline;
 }
 
+.cross-button {
+    transition: all .1s ease-in-out;
+    cursor: pointer;
+}
+
+.cross-button:hover {
+    transform: rotate(90deg)
+}
+
 
 /*  */
 /* Main */
@@ -153,15 +162,19 @@ header {
 
 
 main{
+    font-family: 'Roboto';
     width: 911px;
     margin: 0 auto;
     flex-grow: 1;
 }
 
+a {
+    text-decoration: none;
+}
+
 main h1 {
     display: block;
     flex-wrap: flex;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -173,18 +186,19 @@ main h1 {
 }
 
 .main-h2 {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
 }
 
 main p {
-    /* width: 634px; */
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+}
+
+.main-p {
+    width: 634px;
 }
 
 .em-orange {
@@ -192,7 +206,6 @@ main p {
 }
 
 .main-p-large {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
@@ -216,10 +229,26 @@ main p {
 .student-name {
     display: block;
     text-align: center;
+    color:#000000;
 }
 
 .students-main-h1::after {
     content: "👧👦";
+}
+
+.beginner {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #3AA828;
+    border-radius: 20px;
+    padding: 2px 5px;
+    position: relative;
+    top: -342px ;
+    left: 128px;
 }
 
 /* AboutCourse */
@@ -243,6 +272,43 @@ main p {
     text-decoration: underline;
 }
 
+.intro-wrapper{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.intro-aside {
+
+}
+
+.quote {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #646464;
+}
+
+/*  */
+/* Contacts */
+/*  */
+
+.iframe {
+    display: flex;
+    justify-content: center;
+}
+
+/*  */
+/* SibirkoMaximPage */
+/*  */
+
+.profile {
+    margin-top: 15px;
+}
+
+li {
+    font-size: 18px;
+}
 
 /*  */
 /* Footer */

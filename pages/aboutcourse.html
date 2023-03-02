@@ -20,11 +20,22 @@
             <li><a class="menu-link" href="./contacts.html">Контакты</a></li>
         </ul>
         <a class="login-button">Войти</a>
+        <div class="login-popup">
+            <img class="cross-button" src="../images/cross.svg" alt="Закрыть" width="40px" height="40px">
+            <h2 class="login-title">Войти на сайт</h2>
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required>
+                <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+        <script src="../js/script.js"></script>
     </header>
     <main>
         <h1 class="aboutcourse-main-h1">О курсе</h1>
         <p class="main-p-large">Посмотрите видео о нас</p>
-        <img src="../images/video-photo.png">
+        <iframe class="video" src="https://www.youtube.com/embed/0v7pdd4za6s" 
+        width="820" height="550"></iframe>
     </main>
     <footer>
         <p class="footer-p">2022 &copy; <a class="footer-link" href="">учебный центр</a></p>
